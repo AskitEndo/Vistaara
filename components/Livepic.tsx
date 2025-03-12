@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
-import CameraPopup from "./CameraPopup";
+import CameraPopup from "./view/CameraPopup";
 
 const styles = {
   "@keyframes fadeIn": {
