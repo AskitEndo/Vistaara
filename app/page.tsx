@@ -35,10 +35,10 @@ const Page = () => {
 
               {/* Liveview Section */}
               <div className="border-[3px] border-[#78C0A8] rounded-md p-4 h-2/5 bg-[#1a2a36]/80 backdrop-blur-md shadow-[5px_5px_0px_0px_rgba(66,138,151,0.5)]">
-                <div className="text-[#78C0A8] font-bold text-xl mb-3 flex items-center">
+                {/* <div className="text-[#78C0A8] font-bold text-xl mb-3 flex items-center">
                   <span className="inline-block w-3 h-3 bg-[#78C0A8] rounded-full mr-2 animate-pulse"></span>
                   Live Feed
-                </div>
+                </div> */}
                 <div className="h-[calc(100%-2rem)] overflow-hidden">
                   <Livepic />
                 </div>
